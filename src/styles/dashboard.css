@@ -1,0 +1,93 @@
+/*--------------------------------------------------------------
+# dashboard Section
+--------------------------------------------------------------*/
+
+  #dashboard:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  #dashboard .container {
+    padding-top: 72px;
+  }
+  
+  @media (max-width: 992px) {
+    #dashboard .container {
+      padding-top: 62px;
+    }
+  }
+  
+  #dashboard h1 {
+    margin: 0;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #dashboard h2 {
+    color: #eee;
+    margin: 10px 0 0 0;
+    font-size: 24px;
+  }
+  
+  #dashboard .btn-get-started {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 30px;
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+  }
+  .btn-search{
+    background: #05A081;
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 4px;
+    border: 2px solid #fff;
+    padding: 6px 17px;
+    /* margin-bottom: 10px; */
+  }
+  
+  
+  #dashboard .btn-get-started:hover {
+    background: #05A081;
+    border: 2px solid #05A081;
+    text-decoration: none;
+    cursor: pointer;
+    
+  }
+  
+  @media (min-width: 1024px) {
+    #dashboard {
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #dashboard {
+      height: 100vh;
+    }
+    #dashboard h1 {
+      font-size: 28px;
+      line-height: 36px;
+    }
+    #dashboard h2 {
+      font-size: 18px;
+      line-height: 24px;
+    }
+  }
+  

@@ -1,0 +1,147 @@
+.login-card {
+    margin: auto;
+    width: 600px;
+    padding: 3rem 3.5rem;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+
+.mt-50 {
+    margin-top: 50px
+}
+
+.mb-50 {
+    margin-bottom: 50px
+}
+
+@media(max-width:767px) {
+    .login-card {
+        width: 100%;
+        padding: 1.5rem
+    }
+}
+
+@media(height:1366px) {
+    .login-card {
+        width: 100%;
+        padding: 8vh
+    }
+}
+
+.login-card-title {
+    font-weight: 700;
+    font-size: 2.5em
+}
+
+
+
+input, textarea {
+    border: none;
+    outline: none;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #000;
+    width: 100%;
+    min-width: unset;
+    background-color: transparent;
+    border-color: transparent;
+    margin: 0
+}
+
+
+
+form .row {
+    margin: 0;
+    overflow: hidden
+}
+
+form .row-1 {
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 0.5rem;
+    outline: none;
+    width: 100%;
+    min-width: unset;
+    border-radius: 5px;
+    background-color: rgba(221, 228, 236, 0.301);
+    border-color: rgba(221, 228, 236, 0.459);
+    margin: 2vh 0;
+    overflow: hidden
+}
+
+
+
+#login-card-inner {
+    font-size: 0.8rem;
+    color: gray
+}
+
+
+
+.btn{
+    width: 100%;
+    background-color: #0D826E;
+    border-color: #0D826E;
+    color: white;
+    justify-content: center;
+    padding: 2vh 0;
+    margin-top: 3vh
+}
+
+.btn:focus {
+    box-shadow: none;
+    outline: none;
+    box-shadow: none;
+    color: white;
+    -webkit-box-shadow: none;
+    -webkit-user-select: none;
+    transition: none
+}
+
+.btn:hover {
+    color: white
+}
+
+
+
+input:focus::-webkit-input-placeholder {
+    color: transparent
+}
+
+input:focus:-moz-placeholder {
+    color: transparent
+}
+
+input:focus::-moz-placeholder {
+    color: transparent
+}
+
+input:focus:-ms-input-placeholder {
+    color: transparent
+}
+
+.three .col-7 {
+    padding-left: 0
+}
+
+.three {
+    overflow: hidden;
+    justify-content: space-between
+}
+
+.three .col-2 {
+    border: 1px solid rgba(0, 0, 0, 0.137);
+    padding: 0.5rem;
+    outline: none;
+    width: 100%;
+    min-width: unset;
+    border-radius: 5px;
+    background-color: rgba(221, 228, 236, 0.301);
+    border-color: rgba(221, 228, 236, 0.459);
+    margin: 2vh 0;
+    width: fit-content;
+    overflow: hidden
+}
+
+.three .col-2 input {
+    font-size: 0.7rem;
+    margin-left: 1vh
+}

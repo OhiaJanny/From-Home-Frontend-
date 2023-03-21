@@ -1,0 +1,36 @@
+
+.size span {
+    font-size: 11px
+}
+
+.color span {
+    font-size: 11px
+}
+
+.product-deta {
+    margin-right: 70px
+}
+
+
+.pay-button {
+    color: #fff
+}
+
+.pay-button:hover {
+    color: #fff;
+    background-color: #0D826E;
+    border: none;
+}
+
+.pay-button:focus {
+    color: #fff;
+    box-shadow: none
+}
+
+.text-grey {
+    color: #a39f9f
+}
+
+.qty i {
+    font-size: 11px
+}
